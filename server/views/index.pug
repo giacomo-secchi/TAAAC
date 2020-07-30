@@ -1,0 +1,18 @@
+- var contentType = "text/html";
+include mixins
+
+doctype html
+html(lang="it")
+  head
+    meta(http-equiv="content-type", content=`${contentType}; charset=UTF-8`)
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    title=  `${title} - ${websiteUrl}`
+    link(rel="shortcut icon", href=`${process.env.PUBLIC_URL}/favicon.ico`)
+  body
+    noscript.
+      You need to enable JavaScript to run this app.
+    #root
+
+    script(src='/main.js')
+    
+    

@@ -1,0 +1,24 @@
+- var contentType = "text/html";
+include mixins
+
+doctype html
+html(lang="it")
+  head
+    meta(http-equiv="content-type", content=`${contentType}; charset=UTF-8`)
+    title=  `${title} - ${websiteUrl}`
+    style
+        include ../../public/stylesheets/style.css
+        include ../../public/stylesheets/icomoon/style.css
+        include ../../public/stylesheets/layout.css
+        include ../../public/stylesheets/color-scheme.css
+
+  body
+    include ../../public/symbol-defs.svg
+    h1.title= message
+    .subtitle
+    .social-link
+      +link("https://www.facebook.com/farmaciadellabona/", "", "facebook-square")
+      +link("https://www.instagram.com/farmaciadellabona/", "", "instagram")
+      +link("mailto:paolo@dellabona.eu", "", "envelope")
+    footer.footer
+      p.copyright= "Copyright 2009 Your name"

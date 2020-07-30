@@ -1,0 +1,105 @@
+// TODO: environment Developement: log with Morgan or other tool like https://logrocket.com/
+// TODO: environment debug log with morgan and default port is a chrome tool default port
+
+Structure
+// workspace
+
+// templates gestiti da controller: in base al template selezionato da admin vengono configurati i parametri dei components tipo: (counter, (header->title,header->subtitle), leave an email, social, copyright, description, background, color scheme )
+ogni project ha tutti i components come subdocuments, tutti i components possono essere disabilitati e le loro proprietà modificate, i template servono per dare una struttura iniziale 
+ad ogni project può essere associato uno o piu domini
+
+
+// idee
+servizio a pagamento per fare cooming soon pages customizzato
+
+
+// backbone
+pagina projectList con search in alto
+se clicci su modifica project slida da destra il workspace con tutti i componenti da scegliere
+
+//
+create registrationDate field in User model
+allow login both with username or email
+
+// Admin Area templates: sono presets (varie combinazioni) dei valori dei componenti
+
+Preparare setting per settare tra coming soon page e maintenance mode.
+Differenze qui: https://www.seedprod.com/coming-soon-vs-maintenance-mode/
+
+Copiare più feature possibili da qui:
+https://it.wordpress.org/plugins/coming-soon/
+
+//Payoff
+A new website is rising
+
+//componenti
+TODO: non far salvare il componente del progetto se ha un nome uguale ad un componente già esistente 
+
+// Idee marketing 
+Blog series con articoli su che cos'è una soon page, differenza tra coming soon page e maintenance mode, effetti sul seo, linee guida per creare une coming soon page efficace
+creare profilo aziendale di behanche con esempi di grafica di coming soon pages
+
+// Link utili
+
+MERN Stack
+https://alligator.io/react/mern-stack-intro/
+
+Mean Stack
+https://github.com/simonholmes/getting-MEAN
+
+https://www.codementor.io/mattgoldspink/nodejs-best-practices-du1086jja
+
+// React
+https://medium.com/@rajaraodv/a-guide-for-building-a-react-redux-crud-app-7fe0b8943d0f
+https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a
+https://www.quora.com/Can-you-make-single-page-app-with-ReactJS
+https://dev.to/flexdinesh/react-redux-boilerplate-with-best-practices--2pp5
+
+// React router
+https://auth0.com/blog/react-tutorial-building-and-securing-your-first-app/
+https://auth0.com/blog/react-router-4-practical-tutorial/
+https://medium.freecodecamp.org/you-might-not-need-react-router-38673620f3d
+https://github.com/kriasoft/react-firebase-starter
+https://www.kirupa.com/react/creating_single_page_app_react_using_react_router.htm
+https://reacttraining.com/react-router/web/example/auth-workflow
+
+
+// SPA vanilla
+https://scraggo.github.io/javascript/2017/09/01/intro-to-js-frameworks01.html
+https://github.com/mmikowski/hi_score
+https://medium.com/@bryanmanuele/how-i-implemented-my-own-spa-routing-system-in-vanilla-js-49942e3c4573
+https://marcobotto.com/blog/frontend-javascript-single-page-application-architecture/
+https://medium.com/frontend-fun/js-vanilla-script-spa-1b29b43ea475
+https://github.com/Mevrael/bunny
+https://mmikowski.github.io/no-frameworks/
+https://www.smashingmagazine.com/2017/05/why-no-framework/
+
+
+// Design libraries
+https://hackernoon.com/23-best-react-ui-component-libraries-and-frameworks-250a81b2ac42
+
+// SLDS 
+https://github.com/salesforce-ux/design-system/issues/273
+https://github.com/salesforce/design-system-react/blob/master/docs/webpack.md
+https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/tokens_intro.htm
+https://github.com/salesforce-ux/design-system
+https://github.com/salesforce-ux/design-system-starter-kit
+
+
+
+
+
+
+
+// logo admin: sole che gira con davanti area verde per far capire che è l'alba (prendere spunto da logo demo React)
+
+webpack: fare file di config per i  vari ambienti e per prod settare la variante production poi con l'extension di React per chrome ceccare che non abbia colore rosso
+
+// Link d'aiuto per setup admin in React 
+https://developer.okta.com/blog/2018/07/10/build-a-basic-crud-app-with-node-and-react
+https://reactjs.org/tutorial/tutorial.html#setup-for-the-tutorial
+
+
+// setup link chiamata api dentro React 
+scegliere uno tra questi modi: https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-custom-environment-variables
+

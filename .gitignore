@@ -1,0 +1,5 @@
+*.log
+node_modules/
+.env
+src/fonts/
+public/css/

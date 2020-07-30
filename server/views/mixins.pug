@@ -1,0 +1,15 @@
+//- implemented: https://css-tricks.com/svg-sprites-use-better-icon-fonts/
+//- TODO: https://css-tricks.com/pretty-good-svg-icon-system/
+
+mixin icon(names)
+    each name in [names]
+        svg.icon(class=`icon-${name}` aria-hidden=true role="presentation")&attributes(attributes)
+            use(xlink:href= `#icon-${name}`)
+
+
+
+mixin link(href, name, icon)
+    a(href=href)&attributes(attributes)= name
+        if icon
+           +icon(icon)
+
